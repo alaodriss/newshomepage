@@ -1,0 +1,17 @@
+
+// header :
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 5rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  padding: 0 1rem;
+  // font-family: 'Font3';
+}
