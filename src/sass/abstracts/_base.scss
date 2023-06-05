@@ -4,13 +4,35 @@
     padding: 0;
     border: 0;
     font-family: sans-serif;
-    font-size: 1em;
     font-weight: normal;
     font-style: normal;
     color: black;
     text-decoration: none; 
+    font-family: 'Inter', sans-serif;
 }
 
 ul{
     list-style: none;
+}
+
+a{
+    color: gray;
+    cursor: pointer;
+}
+
+button{
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: #fff;
+    padding:  20px 50px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    // margin: 2rem 0;
+}
+
+button:hover{
+    background-color: hsl(35, 77%, 62%);
+    border: none;
+    color: hsl(5, 85%, 63%);
+    transition: 0.4s ease-in-out;
 }

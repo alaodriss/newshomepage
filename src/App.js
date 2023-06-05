@@ -9,7 +9,7 @@ function App() {
   <BrowserRouter>
   <Header />
     <Routes>
-      <Route path="/home" exect element={<Home />} />
+      <Route path="/" exect element={<Home />} />
     </Routes>
   </BrowserRouter>
 </>

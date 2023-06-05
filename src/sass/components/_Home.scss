@@ -1,0 +1,30 @@
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+p {
+  color: gray;
+}
+.sections {
+  margin: 2rem 4rem;
+  display: flex;
+}
+.bg > img {
+  width: 85%;
+}
+.infos {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  position: relative;
+}
+.more-info {
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+}
+
+.more-info > p {
+  margin-bottom: 2.5rem;
+}

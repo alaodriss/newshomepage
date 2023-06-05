@@ -4,12 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem 5rem;
+  margin: 3rem;
 }
 
 ul {
   display: flex;
   align-items: center;
+  position: relative;
+  right: 40%;
 }
 li {
   padding: 0 1rem;
