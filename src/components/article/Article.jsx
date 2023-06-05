@@ -11,29 +11,29 @@ const Article = () => {
       num: "01",
       title: "Reviving Retro PCs",
       description: "What happens when old PCs are given modern upgrades ?",
-      photo: {pic1},
+      pic: pic1,
     },
     {
       id: 2,
       num: "02",
       title: "Top 10 Laptops of 2022",
       description: "Our best picks for various needs and budegts",
-      photo: {pic2},
+      pic: pic2,
     },
     {
       id: 3,
       num: "03",
       title: "The Growth Of Gaming",
       description: "How the pandemic has sparked fresh opportuunites.",
-      photo: { pic3 },
+      pic: pic3,
     },
   ];
   return (
-    <>
+    <div className="articles">
       {DonneAc.map((item) => (
         <div className="card-ac">
           <div className="img">
-            <img src={item.photo} alt="pic"/>
+            <img src={item.pic} alt="pic"/>
           </div>
           <div className="info-ac">
             <h1>{item.num}</h1>
@@ -42,7 +42,7 @@ const Article = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

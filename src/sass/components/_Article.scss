@@ -1,0 +1,27 @@
+.articles {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.info-ac > h1 {
+  color: gray;
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+.title-ac {
+  color: hsl(240, 100%, 5%);
+  font-weight: 700;
+  padding: 1rem 0;
+}
+.description-ac > P {
+
+font-size: 15px;
+}
+.card-ac {
+  display: flex;
+  gap: 14px;
+}
+
