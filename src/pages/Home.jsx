@@ -43,8 +43,8 @@ const Home = () => {
         </div>
       </div>
       <div className="section-tow">
-        <h2>New</h2>
         <div className="news">
+        <h2>New</h2>
             {news.map((n) => (
                 <div className="block-new">
                     <h3>{n.title}</h3>

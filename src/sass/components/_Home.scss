@@ -1,5 +1,5 @@
 h1 {
-  font-size: 3rem;
+  font-size: 3.6rem;
   font-weight: 800;
 }
 p {
@@ -27,4 +27,37 @@ p {
 
 .more-info > p {
   margin-bottom: 2.5rem;
+}
+
+/********   Section 2  ******/
+
+.section-tow {
+  background-color: hsl(240, 100%, 5%);
+  position: relative;
+  right: 7%;
+  height: 530px;
+}
+.news {
+  margin: 2rem;
+}
+
+.block-new {
+  border-bottom: 1px solid gray;
+  margin: 3rem 0;
+}
+.block-new:last-child {
+  border: none;
+}
+.block-new > p {
+  padding: 1rem 0;
+}
+h2 {
+  color: hsl(35, 77%, 62%);
+  font-weight: 800;
+  margin-bottom: 2rem;
+  font-size: 38px;
+}
+h3 {
+  color: #fff;
+  font-weight: 700;
 }
