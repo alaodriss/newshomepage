@@ -10,7 +10,7 @@ const Article = () => {
       id: 1,
       num: "01",
       title: "Reviving Retro PCs",
-      description: "What happens when old PCs are given modern upgrades ?",
+      description: "What happens when old PCs are given.. ?",
       pic: pic1,
     },
     {
